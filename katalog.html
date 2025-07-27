@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk - Zaza Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="header-logo"><img src="images/logo.jpg" alt="Zaza Bakery Logo"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="katalog.html" class="active">Katalog</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/6283874645925?text=Halo%20Zaza%20Bakery" target="_blank" class="btn btn-primary btn-whatsapp">Pesan Sekarang</a>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </header>
+    <main>
+        <section class="katalog-section">
+            <div class="container">
+                <header class="page-header">
+                    <h1>Katalog Produk Kami</h1>
+                    <p>Temukan aneka sajian lezat dari Zaza Bakery. Klik tombol di bawah untuk memfilter berdasarkan kategori.</p>
+                </header>
+                <div id="filter-buttons">
+                    <button class="btn-filter active" data-filter="all">Semua</button>
+                    <button class="btn-filter" data-filter="chiffon">Chiffon</button>
+                    <button class="btn-filter" data-filter="brownies">Brownies</button>
+                    <button class="btn-filter" data-filter="kue-kering">Kue Kering</button>
+                    <button class="btn-filter" data-filter="soes-kering">Soes Kering</button>
+                </div>
+                <div class="product-grid-katalog">
+                    <div class="product-item chiffon">
+                        <img src="https://source.unsplash.com/random/400x400?roll,cake" alt="Roll Cake">
+                        <h3>Premium Roll Cake</h3>
+                        <p class="price">Rp 55.000</p>
+                        <a href="https://wa.me/6283874645925?text=Halo%2C%20saya%20mau%20pesan%20Premium%20Roll%20Cake" target="_blank" class="btn btn-primary">Pesan via WhatsApp</a>
+                    </div>
+                    <div class="product-item brownies">
+                        <img src="images/brownies.jpg" alt="Fudgy Brownies">
+                        <h3>Fudgy Brownies</h3>
+                        <p class="price">Rp 65.000 / loyang</p>
+                        <a href="https://wa.me/6283874645925?text=Halo%2C%20saya%20mau%20pesan%20Fudgy%20Brownies" target="_blank" class="btn btn-primary">Pesan via WhatsApp</a>
+                    </div>
+                    <div class="product-item kue-kering">
+                        <img src="https://source.unsplash.com/random/400x400?pineapple,cookies" alt="Nastar">
+                        <h3>Nastar Premium</h3>
+                        <p class="price">Rp 80.000 / toples</p>
+                        <a href="https://wa.me/6283874645925?text=Halo%2C%20saya%20mau%20pesan%20Nastar%20Premium" target="_blank" class="btn btn-primary">Pesan via WhatsApp</a>
+                    </div>
+                     <div class="product-item chiffon">
+                        <img src="https://source.unsplash.com/random/400x400?chiffon,cake" alt="Pandan Chiffon">
+                        <h3>Pandan Chiffon</h3>
+                        <p class="price">Rp 50.000</p>
+                        <a href="https://wa.me/6283874645925?text=Halo%2C%20saya%20mau%20pesan%20Pandan%20Chiffon" target="_blank" class="btn btn-primary">Pesan via WhatsApp</a>
+                    </div>
+                    <div class="product-item soes-kering">
+                        <img src="https://source.unsplash.com/random/400x400?pastry,snack" alt="Soes Kering Keju">
+                        <h3>Soes Kering Keju</h3>
+                        <p class="price">Rp 45.000 / toples</p>
+                        <a href="https://wa.me/6283874645925?text=Halo%2C%20saya%20mau%20pesan%20Soes%20Kering%20Keju" target="_blank" class="btn btn-primary">Pesan via WhatsApp</a>
+                    </div>
+                    <div class="product-item kue-kering">
+                        <img src="https://source.unsplash.com/random/400x400?cheese,cookies" alt="Kastengel">
+                        <h3>Kastengel Keju Edam</h3>
+                        <p class="price">Rp 85.000 / toples</p>
+                        <a href="https://wa.me/6283874645925?text=Halo%2C%20saya%20mau%20pesan%20Kastengel%20Keju%20Edam" target="_blank" class="btn btn-primary">Pesan via WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Zaza Bakery. All Rights Reserved.</p>
+            <p>Jl. Nasional III RT 003 RW 005, Karangtengah, Kebumen</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
